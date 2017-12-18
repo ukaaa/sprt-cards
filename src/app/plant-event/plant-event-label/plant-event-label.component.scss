@@ -1,0 +1,47 @@
+@import '../../shared/colors';
+@import '../../shared/type';
+
+.sprt-plant-event-label {
+  @include font-size(10/14);
+  width: 4 * $space-unit;
+  height: 4 * $space-unit;
+  background: mix($col-body, $col-white, 10%);
+  color: $col-body;
+  text-transform: uppercase;
+  font-weight: $font-weight-bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 100%;
+  letter-spacing: 0.1rem;
+
+  &.fertilize {
+    color: $col-green;
+    background: $col-green-muted;
+  }
+
+  &.flower {
+    color: $col-pink;
+    background: $col-pink-muted;
+  }
+
+  &.fruit {
+    color: $col-red;
+    background: $col-red-muted;
+  }
+
+  &.plant {
+    color: $col-brown;
+    background: $col-brown-muted;
+  }
+
+  &.prune {
+    color: $col-purple;
+    background: $col-purple-muted;
+  }
+
+  &.water {
+    color: $col-blue;
+    background: $col-blue-muted;
+  }
+}

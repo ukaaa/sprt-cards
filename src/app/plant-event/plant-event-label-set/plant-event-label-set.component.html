@@ -1,0 +1,8 @@
+<ul *ngIf="events?.length">
+  <li *ngFor="let event of visibleEvents">
+    <sprt-plant-event-label [event]="event"></sprt-plant-event-label>
+  </li>
+  <li *ngIf="hiddenEvents?.length">
+    <sprt-plant-event-label [label]="'+' + (hiddenEvents.length)" [title]="hiddenEvents.length | plural:'more task'"></sprt-plant-event-label>
+  </li>
+</ul>

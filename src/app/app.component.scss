@@ -1,0 +1,91 @@
+@import './shared/colors';
+@import './shared/type';
+
+:host {
+  padding: 4 * $space-unit;
+  display: block;
+  position: relative;
+}
+
+h2 {
+  @include font-size(1);
+  color: $col-body;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  opacity: 0.4;
+}
+
+.sprt-plant-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 2 * $space-unit -2 * $space-unit;
+}
+
+@keyframes card-appear {
+  from {
+    transform: scale(0.75);
+  }
+
+  to {}
+}
+
+sprt-plant-card {
+  // animation: card-appear 0.25s cubic-bezier(0.075, 0.82, 0.165, 1);
+  margin: 2 * $space-unit;
+}
+
+.color-samples {
+  display: flex;
+  background: $col-white;
+  padding: 2 * $space-unit;
+
+  .color-sample {
+    @include font-size(1.5);
+    font-weight: $font-weight-bold;
+    width: 14 * $space-unit;
+    height: 14 * $space-unit;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+    &:nth-child(1) {
+      background: $col-blue-muted;
+      color: $col-blue;
+    }
+
+    &:nth-child(2) {
+      background: $col-cyan-muted;
+      color: $col-cyan;
+    }
+
+    &:nth-child(3) {
+      background: $col-green-muted;
+      color: $col-green;
+    }
+
+    &:nth-child(4) {
+      background: $col-yellow-muted;
+      color: $col-yellow;
+    }
+
+    &:nth-child(5) {
+      background: $col-red-muted;
+      color: $col-red;
+    }
+
+    &:nth-child(6) {
+      background: $col-purple-muted;
+      color: $col-purple;
+    }
+
+    &:nth-child(7) {
+      background: $col-pink-muted;
+      color: $col-pink;
+    }
+  }
+
+  .color-sample + .color-sample {
+    margin-left: 2 * $space-unit;
+  }
+}

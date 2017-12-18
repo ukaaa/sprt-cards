@@ -1,0 +1,84 @@
+[{
+  "name": {
+    "common": "camellia 'Mercury'",
+    "botanical": "Camellia japonica 'Mercury'"
+  },
+  "notes": "'Mercury' is a compact medium-sized shrub with crimson, semi-double flowers to 12cm in width in mid and late spring.",
+  "events": [{
+    "type": "plant",
+    "occurrences": ["fall", "late.spring"]
+  }, {
+    "type": "flower",
+    "occurrences": ["fall", "winter", "spring"]
+  }, {
+    "type": "prune",
+    "occurrences": ["spring"]
+  }, {
+    "type": "fertilize",
+    "occurrences": ["spring", "early.summer"]
+  }],
+  "color": "#EF363F",
+  "image": "https://apps.rhs.org.uk/plantselectorimages/detail/WSY0032990_9009.jpg"
+},
+{
+  "name": {
+    "common": "lilac 'Katherine Havemeyer'",
+    "botanical": "Syringa vulgaris 'Katherine Havemeyer' (d)"
+  },
+  "events": [{
+    "type": "water",
+    "occurrences": ["fall", "late.spring"]
+  }, {
+    "type": "plant",
+    "occurrences": ["fall", "winter", "spring"]
+  }, {
+    "type": "fertilize",
+    "occurrences": ["spring", "early.summer"]
+  }],
+  "color": "#BA90CB",
+  "image": "https://apps.rhs.org.uk/plantselectorimages/detail/WSY0034394_5779.jpg"
+},
+{
+  "name": {
+    "common": "laurustinus 'French White'",
+    "botanical": "Viburnum tinus 'French White'"
+  },
+  "events": [{
+    "type": "water",
+    "occurrences": ["fall", "late.spring"]
+  }],
+  "color": "#D1D1B6",
+  "image": "https://apps.rhs.org.uk/plantselectorimages/detail/WSY0039713_8946.jpg"
+},
+{
+  "name": {
+    "common": "golden bells Maré",
+    "botanical": "Forsythia Marée d'Or"
+  },
+  "color": "#FCE45D",
+  "image": "https://apps.rhs.org.uk/plantselectorimages/detail/WSY0078735_5827.jpg"
+},
+{
+  "name": {
+    "common": "garden catmint",
+    "botanical": "Nepeta × faassenii"
+  },
+  "color": "#9F87B5",
+  "image": "http://www.saundersbrothers.com/_ccLib/image/plants/DETA-205.jpg"
+},
+{
+  "name": {
+    "common": "Dutch garlic 'Purple Sensation'",
+    "botanical": "Allium hollandicum 'Purple Sensation'"
+  },
+  "color": "#AB4E6E",
+  "image": "https://apps.rhs.org.uk/plantselectorimages/detail/WSY0042048_14697.jpg"
+},
+{
+  "name": {
+    "common": "paniculate hydrangea",
+    "botanical": "Hydrangea paniculata"
+  },
+  "color": "#DCE1B9",
+  "image": "https://apps.rhs.org.uk/plantselectorimages/detail/RHS_WSYD0005965_6676.JPG"
+}]

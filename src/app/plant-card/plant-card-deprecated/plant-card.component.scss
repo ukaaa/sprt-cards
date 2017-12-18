@@ -1,0 +1,79 @@
+@import '../../shared/colors';
+@import '../../shared/type';
+
+:host {
+  display: block;
+  background: $col-white;
+  box-shadow: 0 $space-unit 2 * $space-unit rgba($col-body,.07);
+  border-radius: 0.5 * $space-unit;
+  overflow: hidden;
+  cursor: default;
+  width: 48 * $space-unit;
+  height: 64 * $space-unit;
+  @include font-size(1);
+}
+
+.name {
+  font-weight: $font-weight-normal;
+  position: relative;
+
+  &.botanical {
+    @include font-size(1.5);
+    font-style: italic;
+  }
+
+  &.common {
+    @include font-size(1);
+  }
+
+  &.botanical + &.common {
+    margin-top: $space-unit;
+  }
+}
+
+.details {
+  padding: 4 * $space-unit 0;
+}
+
+section + section {
+  margin-top: 2 * $space-unit;
+}
+
+header {
+  position: relative;
+  background: $col-body;
+  color: $col-white;
+  padding: 4 * $space-unit;
+  height: 28 * $space-unit;
+}
+
+section {
+  padding: 0 4 * $space-unit;
+}
+
+.image {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  // background-image: url("https://apps.rhs.org.uk/plantselectorimages/detail/WSY0032990_9009.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: $col-primary;
+  z-index: 0;
+  opacity: 0.6;
+}
+
+.section-title {
+  @include font-size(0.75);
+  font-weight: $font-weight-bold;
+  letter-spacing: 1px;
+  opacity: 0.4;
+  text-transform: uppercase;
+
+  & + * {
+    margin-top: $space-unit;
+  }
+}

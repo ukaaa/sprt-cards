@@ -1,0 +1,13 @@
+$space-unit: (8 / 14) * 1rem;
+$font-weight-normal: 400;
+$font-weight-bold: 600;
+@mixin font-size($rem) {
+  font-size: $rem * 1rem;
+  $max-line-height: 1.5;
+  $min-line-height: 1;
+  $line-height-range: $max-line-height - $min-line-height;
+  $max-rem: 4;
+  $min-rem: 1;
+  $rem-range: $max-rem - $min-rem;
+  line-height: ($max-line-height - $line-height-range * ($rem - $min-rem) / $rem-range) * 1em;
+}

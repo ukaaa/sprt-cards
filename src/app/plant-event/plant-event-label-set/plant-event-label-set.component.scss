@@ -1,0 +1,20 @@
+@import '../../shared/type';
+
+:host {
+  display: flex;
+
+  li {
+    float: left;
+  }
+
+  li + li {
+    margin-left: -$space-unit;
+    transition: 0.2s cubic-bezier(0.075, 0.82, 0.165, 1);
+  }
+
+  &:hover {
+    li + li {
+      margin-left: $space-unit;
+    }
+  }
+}

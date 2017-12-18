@@ -1,1 +1,16 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import './reset';
+@import './app/shared/colors';
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  color: $col-body;
+  font-family: 'Fira Sans', sans-serif;
+  background: mix($col-body, $col-white, 2.5%);
+  font-size: 14px;
+  line-height: 1.5em;
+}

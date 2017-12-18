@@ -1,0 +1,3 @@
+<div [ngClass]="['sprt-plant-event-label', event?.type ? event.type : '']" [attr.title]="event?.type || title || null">
+  <span>{{event?.initial || label}}</span>
+</div>

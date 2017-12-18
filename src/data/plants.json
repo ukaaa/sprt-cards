@@ -1,0 +1,325 @@
+[
+  {
+    "name": {
+      "common": "Black cherry plum",
+      "botanical": "Prunus cerasifera 'Nigra'"
+    },
+    "classification": {
+      "family": "Rosaceae",
+      "genus": "Prunus"
+    },
+    "notes": "'Nigra' is a medium-sized, round-headed deciduous tree with deep blackish-purple leaves and twigs. Single, pale pink flowers open from deep pink buds before the leaves.",
+    "events": [{
+      "type": "prune",
+      "occurrences": ["summer"]
+    }, {
+      "type": "plant",
+      "occurrences": ["spring", "summer"]
+    }, {
+      "type": "flower",
+      "occurrences": ["spring"]
+    }, {
+      "type": "fruit",
+      "occurrences": ["fall"]
+    }],
+    "color": "#CBB1D0",
+    "image": "https://apps.rhs.org.uk/plantselectorimages/detail/WSY0039787_9083.jpg"
+  },
+  {
+    "name": {
+      "common": "pear",
+      "botanical": "Pyrus communis"
+    },
+    "classification": {
+      "family": "Rosaceae",
+      "genus": "Pyrus"
+    },
+    "notes": "",
+    "events": [{
+      "type": "prune",
+      "occurrences": ["winter"]
+    }, {
+      "type": "plant",
+      "occurrences": [{
+        "start": "2017-11-01",
+        "end": "2017-03-31",
+        "recurrence": {
+          "years": 1
+        }
+      }]
+    }, {
+      "type": "flower",
+      "occurrences": ["spring"]
+    }, {
+      "type": "fertilize",
+      "occurrences": ["spring", "summer", "fall"]
+    }, {
+      "type": "fruit",
+      "occurrences": ["fall"]
+    }],
+    "color": "#63733F",
+    "image": "https://apps.rhs.org.uk/plantselectorimages/detail/RHS_RHS-0008581_9580.JPG"
+  },
+  {
+    "name": {
+      "common": "panicle hydrangea",
+      "botanical": "Hydrangea paniculata 'Ilvobo' BOBO"
+    },
+    "classification": {
+      "family": "Hydrangeaceae",
+      "genus": "Hydrangea"
+    },
+    "notes": "",
+    "events": [{
+      "type": "prune",
+      "occurrences": ["late.winter", "early.spring"]
+    }, {
+      "type": "plant",
+      "occurrences": [{
+        "start": "2017-03-01",
+        "end": "2017-10-14",
+        "recurrence": {
+          "years": 1
+        }
+      }]
+    }, {
+      "type": "flower",
+      "occurrences": [{
+        "start": "2017-07-01",
+        "end": "2017-09-30",
+        "recurrence": {
+          "years": 1
+        }
+      }]
+    }, {
+      "type": "fertilize",
+      "occurrences": []
+    }],
+    "color": "#f1f3cc",
+    "image": "http://images.mobot.org/PlantRecords1/prod/large960/00040000/40501.jpg",
+    "resources": [
+      "http://www.missouribotanicalgarden.org/PlantFinder/PlantFinderDetails.aspx?taxonid=274259&isprofile=0&"
+    ]
+  },
+  {
+    "name": {
+      "common": "Stonecrop",
+      "botanical": "Sedum ‘Autumn Joy’"
+    },
+    "classification": {
+      "family": "Crassulaceae",
+      "genus": "Sedum"
+    },
+    "notes": "",
+    "events": [{
+      "type": "plant",
+      "occurrences": ["spring", "early.fall"]
+    }, {
+      "type": "flower",
+      "occurrences": ["late.summer", "fall"]
+    }, {
+      "type": "prune",
+      "occurrences": [{
+        "start": "2017-02-01",
+        "end": "2017-03-31",
+        "recurrence": {
+          "years": 1
+        }
+      }],
+      "instructions": "Cut back the old flowerheads and apply a generous 5-7cm (2-3in) mulch of well-rotted garden compost or manure around the base of the plant."
+    }, {
+      "type": "fertilize",
+      "occurrences": []
+    }],
+    "color": "#e37393",
+    "image": "http://gardeningwithcharlie.com/wp-content/uploads/2014/01/sedum-300x225.jpg",
+    "resources": [
+      "http://gardeningwithcharlie.com/grow-sedum.html",
+      "http://www.almanac.com/plant/sedum",
+      "http://www.perennials.com/plants/sedum-autumn-joy.html",
+      "http://www.finegardening.com/stonecrop-sedum-%E2%80%98autumn-joy%E2%80%99"
+    ]
+  },
+  {
+    "name": {
+      "common": "cherry laurel 'Otto Luyken'",
+      "botanical": "Prunus laurocerasus 'Otto Luyken'"
+    },
+    "classification": {
+      "family": "Rosaceae",
+      "genus": "Prunus"
+    },
+    "notes": "",
+    "events": [{
+      "type": "plant",
+      "occurrences": ["early.fall"],
+      "instructions": ""
+    }, {
+      "type": "flower",
+      "occurrences": ["spring"],
+      "instructions": ""
+    }, {
+      "type": "fruit",
+      "occurrences": ["fall"],
+      "instructions": ""
+    }, {
+      "type": "prune",
+      "occurrences": ["late.spring", "early.summer"],
+      "instructions": "https://www.rhs.org.uk/advice/profile?PID=168"
+    }],
+    "color": "#323f25",
+    "image": "https://apps.rhs.org.uk/plantselectorimages/detail/WSY0036460_3515.jpg",
+    "resources": [
+      "https://www.rhs.org.uk/Plants/99043/Prunus-laurocerasus-Otto-Luyken/Details",
+      "http://www.gardenguides.com/131908-plant-food-otto-luyken-laurel.html"
+    ]
+  },
+  {
+    "name": {
+      "common": "lavender",
+      "botanical": "Lavandula"
+    },
+    "classification": {
+      "family": "Lamiaceae",
+      "genus": "Lavandula"
+    },
+    "notes": "",
+    "events": [{
+      "type": "plant",
+      "occurrences": ["spring"],
+      "instructions": ""
+    }, {
+      "type": "flower",
+      "occurrences": ["summer"],
+      "instructions": ""
+    }, {
+      "type": "prune",
+      "occurrences": ["early.fall", "late.summer", {
+        "start": "2017-03-01",
+        "end": "2017-03-15",
+        "recurrence": {
+          "years": 1
+        }
+      }],
+      "instructions": "Look within the heart of the plant and you should see small shoots on the side of stems. You should prune so that these shoots are left below where you cut. You can prune with a pair of secateurs or with some shears. The shoots will push out to form the new greenery of the plant. Lavenders like a really good haircut so be brave about it? Many people tentatively snip off the old flowering stems. This is certainly not a hard enough prune if you are to avoid your lavender becoming woody and straggly."
+    }],
+    "color": "#8262b6",
+    "image": "http://clv.h-cdn.co/assets/15/13/980x490/landscape-1427147390-landscape-1427120291-475376893.jpg",
+    "resources": [
+      "https://www.rhs.org.uk/advice/profile?PID=127",
+      "http://homeguides.sfgate.com/time-plant-lavender-66826.html",
+      "http://www.jerseylavender.co.uk/content/504/Looking-after-Lavender-FAQs/",
+      "https://www.bakker.com/en-gb/c/pruning-lavender"
+    ]
+  },
+  {
+    "name": {
+      "common": "laurustinus 'Eve Price'",
+      "botanical": "Viburnum tinus 'Eve Price'"
+    },
+    "classification": {
+      "family": "Adoxaceae",
+      "genus": "Viburnum"
+    },
+    "notes": "",
+    "events": [{
+      "type": "plant",
+      "occurrences": [{
+        "start": "2017-03-01",
+        "end": "2017-04-30",
+        "recurrence": {
+          "years": 1
+        }
+      }, {
+        "start": "2017-08-01",
+        "end": "2017-09-30",
+        "recurrence": {
+          "years": 1
+        }
+      }],
+      "instructions": ""
+    }, {
+      "type": "flower",
+      "occurrences": [{
+        "start": "2017-11-01",
+        "end": "2017-12-31",
+        "recurrence": {
+          "years": 1
+        }
+      }, {
+        "start": "2017-01-01",
+        "end": "2017-03-31",
+        "recurrence": {
+          "years": 1
+        }
+      }],
+      "instructions": ""
+    }, {
+      "type": "prune",
+      "occurrences": ["early.summer"],
+      "instructions": ""
+    }, {
+      "type": "fertilize",
+      "occurrences": ["spring"],
+      "instructions": "http://www.groeninfo.com/plantengids/viburnum-tinus-eve-price.html"
+    }],
+    "color": "#007722",
+    "image": "https://apps.rhs.org.uk/plantselectorimages/detail/WSY0003443_5767.jpg",
+    "resources": [
+      "https://www.rhs.org.uk/Plants/96126/Viburnum-tinus-Eve-Price/Details"
+    ]
+  },
+  {
+    "name": {
+      "common": "forsythia",
+      "botanical": "Forsythia"
+    },
+    "classification": {
+      "family": "Oleaceae",
+      "genus": "Forsythia"
+    },
+    "notes": "",
+    "events": [{
+      "type": "plant",
+      "occurrences": [{
+        "start": "2017-03-01",
+        "end": "2017-09-30",
+        "recurrence": {
+          "years": 1
+        }
+      }],
+      "instructions": ""
+    }, {
+      "type": "flower",
+      "occurrences": [{
+        "start": "2017-03-01",
+        "end": "2017-04-30",
+        "recurrence": {
+          "years": 1
+        }
+      }],
+      "instructions": ""
+    }, {
+      "type": "prune",
+      "occurrences": [{
+        "start": "2017-04-15",
+        "end": "2017-05-15",
+        "recurrence": {
+          "years": 1
+        }
+      }],
+      "instructions": "De Forsythia bloeit op meerjarig hout, dit wil zeggen dat de bloemen enkel verschijnen op de takken van de vorige jaren. Dit is van belang om te weten bij het snoeien van deze heester.  Je snoeit Forsythia altijd na de bloei, wanneer de eerste bladeren verschijnen. Normaal gesproken op het einde van april begin mei (afhankelijk van het weer). Als je snoeit dan neem je best de oude, grote takken weg alsook de dode of door kanker aangetaste takken. Let er wel op dat je een ‘stompje’ laat staan zodat de sierheester terug kan uitlopen en een nieuwe bloei mogelijk wordt."
+    }, {
+      "type": "fertilize",
+      "occurrences": [],
+      "instructions": ""
+    }],
+    "color": "#ffee00",
+    "image": "",
+    "resources": [
+      "http://plantnu.nl/forsythia",
+      "https://www.tuinadvies.be/artikels/forsythia_snoeien",
+      "https://www.groei.nl/tuin/tuinonderhoud/filmpjes-tuinieren/Forsythia-snoeien"
+    ]
+  }
+]

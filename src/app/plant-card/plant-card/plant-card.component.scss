@@ -1,0 +1,92 @@
+@import '../../shared/colors';
+@import '../../shared/type';
+
+:host {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: $col-white;
+  box-shadow: 0 $space-unit 2 * $space-unit rgba($col-body,.07);
+  border-radius: 0.25 * $space-unit;
+  overflow: hidden;
+  cursor: default;
+  width: 48 * $space-unit;
+  @include font-size(1);
+}
+
+:host /deep/ .sprt-plant-event-label {
+  box-shadow: 0 0 0 0.5 * $space-unit $col-white;
+}
+
+section.details {
+  padding: 3 * $space-unit;
+}
+
+.details {
+  border-style: solid;
+  border-left-width: 0.5 * $space-unit;
+  border-color: $col-body;
+  background: $col-white;
+  height: 10 * $space-unit;
+  flex-grow: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  .left {
+    overflow: hidden;
+  }
+
+  .title {
+    &.muted {
+      opacity: 0.6;
+    }
+  }
+
+  .name {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+
+    &.botanical {
+      font-style: italic;
+    }
+
+    &.common {
+      display: none;
+    }
+  }
+
+  &:hover {
+    .name {
+      &.botanical {
+        display: none;
+      }
+
+      &.common {
+        display: inherit;
+      }
+    }
+  }
+
+  .subtitle {
+    @include font-size(12/14);
+    opacity: 0.4;
+  }
+}
+
+.image {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 0;
+  opacity: 0.8;
+  // filter: blur(3 * $space-unit) brightness(125%) saturate(90%);
+  transform: scale(10);
+  filter: blur(2px);
+}

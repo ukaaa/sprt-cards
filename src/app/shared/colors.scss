@@ -1,0 +1,40 @@
+$col-blue:          #29C2E9;
+$col-cyan:          #2BE3C8;
+$col-green:         #25D382;
+$col-yellow:        #FCC04D;
+$col-brown:         #CC8E3B;
+$col-red:           #FE626D;
+$col-purple:        #B965FD;
+$col-pink:          #F64BEE;
+$col-white:         #ffffff;
+$col-black:         #000000;
+
+$col-body:          #313131;
+$col-primary:       $col-green;
+$col-success:       $col-green;
+$col-warning:       $col-yellow;
+$col-info:          $col-blue;
+$col-danger:        $col-red;
+
+$col-blue-muted:          mix($col-blue, $col-white, 20%);
+$col-cyan-muted:          mix($col-cyan, $col-white, 20%);
+$col-green-muted:         mix($col-green, $col-white, 30%);
+$col-yellow-muted:        mix($col-yellow, $col-white, 40%);
+$col-brown-muted:         mix($col-brown, $col-white, 20%);
+$col-red-muted:           mix($col-red, $col-white, 20%);
+$col-purple-muted:        mix($col-purple, $col-white, 20%);
+$col-pink-muted:          mix($col-pink, $col-white, 20%);
+
+// @function col-lighten($col){
+//   // @return hsl(hue($col), saturation($col) - 10, lightness($col) + 0.75 * (100 - lightness($col)))
+//   @return scale-color($col, $saturation: -25%, $lightness: 75%)
+// }
+//
+// $col-blue-muted:          col-lighten($col-blue);
+// $col-cyan-muted:          col-lighten($col-cyan);
+// $col-green-muted:         col-lighten($col-green);
+// $col-yellow-muted:        col-lighten($col-yellow);
+// $col-brown-muted:         col-lighten($col-brown);
+// $col-red-muted:           col-lighten($col-red);
+// $col-purple-muted:        col-lighten($col-purple);
+// $col-pink-muted:          col-lighten($col-pink);

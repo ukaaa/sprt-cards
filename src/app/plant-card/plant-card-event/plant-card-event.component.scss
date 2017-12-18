@@ -1,0 +1,23 @@
+@import '../../shared/colors';
+@import '../../shared/type';
+
+:host {}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+
+  &.now {
+    color: $col-green;
+    @include font-size(1.25);
+  }
+
+  &.unknown {
+    opacity: 0.4;
+  }
+}
+
+.event-name {
+  text-transform: capitalize;
+}

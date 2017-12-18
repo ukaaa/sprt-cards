@@ -1,0 +1,4 @@
+<div class="wrapper" [ngClass]="{now: activeOccurrence, unknown: !activeOccurrence && !upcomingOccurrence}">
+  <span class="event-name">{{event.type}}</span>
+  <span class="event-remaining-time" [attr.title]="remainingTimeTitle">{{remainingTimeLabel}}</span>
+</div>

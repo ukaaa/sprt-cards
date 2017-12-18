@@ -1,0 +1,24 @@
+<template [ngIf]="plant">
+  <header [ngStyle]="{background: plant.color || null}">
+    <div class="image"></div>
+    <p class="name botanical">{{plant.name.botanical}}</p>
+    <p class="name common">{{plant.name.common}}</p>
+  </header>
+  <section class="details">
+    <section class="events">
+      <p class="section-title">Events</p>
+      <ul *ngIf="plant.events?.length">
+        <li *ngFor="let event of plant.events">
+          <sprt-plant-card-event [event]="event"></sprt-plant-card-event>
+          <sprt-plant-event-label [event]="event"></sprt-plant-event-label>
+        </li>
+      </ul>
+      <span *ngIf="!plant.events?.length">No events specified for this plant.</span>
+    </section>
+    <section class="notes">
+      <p class="section-title">Notes</p>
+      <p *ngIf="plant.notes?.length">{{plant.notes}}</p>
+      <span *ngIf="!plant.notes?.length">No notes for this plant.</span>
+    </section>
+  </section>
+</template>

@@ -1,0 +1,39 @@
+{
+  "name": {
+    "common": "",
+    "botanical": ""
+  },
+  "classification": {
+    "family": "",
+    "genus": ""
+  },
+  "notes": "",
+  "events": [{
+    "type": "plant",
+    "occurrences": [{
+      "start": "2017-02-01",
+      "end": "2017-03-31",
+      "recurrence": {
+        "years": 1
+      }
+    }],
+    "instructions": ""
+  }, {
+    "type": "flower",
+    "occurrences": [],
+    "instructions": ""
+  }, {
+    "type": "prune",
+    "occurrences": [],
+    "instructions": ""
+  }, {
+    "type": "fertilize",
+    "occurrences": [],
+    "instructions": ""
+  }],
+  "color": "#",
+  "image": "",
+  "resources": [
+    ""
+  ]
+}

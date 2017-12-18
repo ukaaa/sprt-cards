@@ -1,0 +1,11 @@
+<section class="details" [ngStyle]="{borderColor: plant.color || null}">
+  <div class="left">
+    <p class="name botanical">{{plant.name.botanical}}</p>
+    <p class="name common">{{plant.name.common}}</p>
+    <span *ngIf="urgentPlantEvents?.length" class="subtitle">{{urgentPlantEvents.length | plural:['task is', 'tasks are']}} due soon</span>
+    <span *ngIf="!urgentPlantEvents?.length" class="subtitle">{{activePlantEvents.length | plural:'task'}}</span>
+  </div>
+  <div class="right" *ngIf="activePlantEvents?.length">
+    <sprt-plant-event-label-set [events]="activePlantEvents" [max]="3"></sprt-plant-event-label-set>
+  </div>
+</section>
